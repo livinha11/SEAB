@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <div class='container'>
+      <div class='title'>O que é esse site?</div>
+      Esse site foi criado com o objetivo de divulgar e apresentar o Serviço de Emergência e Atendimento dos Bombeiros, um aplicativo que busca facilitar a vida de seus usuários e os auxiliar a manter a calma enquanto estiverem em situações emergênciais de extresse que necessitem da chamada e do serviço dos bombeiros.
+      <div class= 'especial'>
+      <div class='title_2'>Criação do aplicativo</div>
+      <img class='img_especial' src="{{ url_for('static', filename='instituto.jpg') }}">
+      No Ensino Médio integrado ao Ensino Técnico em Informática do Instituto Federal de Minas Gerais, campus Sabará, os alunos têm a atribuição da tarefa de criar um projeto com a implementação de um sistema. Esse projeto deve resolver algum problema.<br> 
+      A partir disso, um grupo de Projetec (a matéria voltada para esse projeto) encontrou uma interessante problemática: o extresse presente em situações emergênciais em que o serviço dos bombeiros é necessário. Assim, analisando-se ainda que muitas pessoas, nessas situações, se enqeuecem do número dos bombeiros (193), surgia a ideia da criação de um sistema que facilitasse o processo de ligação para o serviço emergencial e oferecesse meios de aliviar a tensão nos momentos de tanta ansiedade, a partir da apresentação de Primeiros Socorros e da rota até as bases dos serviços. <br>
+      Para descobrir mais sobre essa equipe, entre na aba "Sobre nós". Para descobrir mais sobre o aplicativo, clique em "Instalar".
+        </div>
+      <div class='title'>Objetivo do aplicativo</div>
+      Com isso, nosso objetivo é tentar tornar as situações de estresse... menos estressantes. E sim, é literalmente isso, vamos buscar facilitar a vida do nosso usuário em situações de emergência, oferecendo um lugar de apoio para a ligação sem necessidade de se lembrar o número e uma aba que auxilie a ação desses usuários até que a ajuda profissional chegue, com o compartilhamento de táticas simples de primeiros socorros. 
+      Além disso, procuramos, com nosso aplicativo, diminuir o número de trotes e pessoas mal intensionadas que entram em contato com os bombeiros, bloqueando aquelas pessoas que realizarem chamadas desnecessárias. 
+      
+    </div>
+
+{% endblock %}

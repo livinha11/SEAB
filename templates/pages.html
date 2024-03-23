@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <div class='container'>
+      <img class='img_especial_4' src="{{ url_for('static', filename='play_store.png') }}">
+      Enquanto nosso aplicativo não entra para a PlayStore, teste nosso protótipo:
+      <a href='https://www.figma.com/proto/MIeqfiddukbSly95ONOlSJ/Projetec?type=design&node-id=1-2&t=Dn8BPnSLu9Qg8ODI-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=178%3A17' style='color:black' target="_blank">Protótipo SEAB</a><br>
+      Garantimos que estamos trabalhando no desenvolvimento do projeto e logo logo você terá nosso resultado diretamente em seu celular. 
+      <div class='especial'>
+      <div class='title_2'>Conheça nosso funcionamento</div>
+      <div class='subtitle'>Tela inicial:</div>A tela de apresentação do aplicativo é super intuitiva, com apenas um elemento em sua extensão: o botão SOS. Ao clicar nesse botão, você será levado diretamente a uma tela de ligação para o corpo de bombeiros, isso, claro, após uma confirmação da realização da chamada. Essa ação pode ser realizada sem a realização do cadastro/login, já as próximas, por questão de segurança, exigem a sua identificação dentro do app.
+      <div class='subtitle'>Primeiros Socorros:</div>
+     É essencial que, em qualquer situação emegencal, a primeira ação seja chamar os bombeiros ou outro serviço de prestação de socorros. Assim, apenas quando extremamente necessário, se deve tentar realizar os primeiros socorros. Caso essa necessidade se apresente e você necessite desse guia, realize todas as orientações à risca e apenas quando se sentir seguro para seguí-las. 
+      <div class='subtitle'>Mapa:</div>Aqui apresentamos os serviços emergenciais próximos ao local em que você se encontra, mostrando os trajetos mais rápidos para a Unidade Pública de Saúde e o Corpo de Bombeiros da sua região, para que, caso a situação exiga, você possa definir para qual lugar é melhor se encaminhar ou contatar. 
+      <div class='subtitle'>Perfil:</div>Aqui apresentamos as informações que você nos forneceu sobre você. É interessante porque apresentam alguns informes (de maioria não obrigatórios), como tipo sanguíneo e alergias que, caso o usuário se acidente, podem ser acessadas no momento do atendimento.
+      </div>
+      <div class='title'>Conheça nossas políticas</div>
+      <img class='img_especial_2' src="{{ url_for('static', filename='atention.webp') }}">
+      Esse aplicativo está apto a coletar dados de login e senha do usuário, a serem utilizados apenas para o uso dos serviços do projeto, assim como a recolher informações de localização do dispositivo. A propaganda de parceiros dentro do aplicativo é permitida e não há nenhum custo para o usuário.<br>
+O usuário se compromete a não utilizar o aplicativo para a realização de trotes e brincadeiras, estando sujeito a consequências como multas e limitações de serviços a serem realizadas pela equipe do aplicativo. O uso do botão SOS é apenas para caso de extrema emergência, em que o usuário não tem tempo ou condições de proferir palavras no telefone, de forma que, caso não haja risco de vida, pedimos que o usuário que selecione o botão de ligação convencional, sendo encaminhado diretamente para a linha do corpo de bombeiros. No campo de fórum, o usuário deve ser respeitoso e empático, sujeito a consequências caso não haja de forma a respeitar os direitos humanos e o Marco Civil da Internet.<br>
+O usuário se compromete a não realizar as ações do Guia de Primeiros Socorros sob circunstâncias em que não esteja completamente sóbrio. Reforçamos que o Guia deve ser utilizado em situações extraordinárias e caso sejam a única opção. O usuário sempre deve dar preferência para o aguardo de um profissional e, quando necessário, deve seguir todos os passos do guia à risca.<br>
+Todas as orientações aqui citadas são para a segurança do próprio usuário e das pessoas ao seu redor, assim como para a garantia do bom funcionamento desse aplicativo. Os termos podem ser alterados, o que, caso ocorra, será notificado ao usuário.<br>
+    </div>
+
+{% endblock %}

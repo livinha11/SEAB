@@ -1,0 +1,114 @@
+.page-header{
+  background-color: #f23636;
+  color: white
+}
+
+.title_main{
+  text-align: center; 
+  font-family: Luminari, fantasy; 
+  font-size: 45px;
+  margin-left: 25px;
+}
+
+.cabecalho img{
+  width:90px;
+  height: 90px
+}
+
+.title{ 
+  font-family: Luminari, fantasy; 
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #f23636;
+}
+
+.title_2{ 
+  font-family: Luminari, fantasy; 
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #f23636;
+}
+
+.subtitle{
+  font-family: Luminari, fantasy;
+  font-size: 22px;
+  color: #f23636;
+}
+
+.nav{
+  display: flex;
+  align-content: center;
+  background-color: #f9d7d7;
+  height: 30px;
+  color: black;
+}
+
+.nav-link{
+  color: #f23636;
+  font-family: Luminari, fantasy;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rodape{
+  display:flex;
+  bottom: 0px;
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+  height: 70px;
+  background-color: #f5e5e5;
+}
+
+.container{
+  margin-top:15px;
+  color: black;
+  font-size: 20px;
+}
+
+.especial{
+  background-color: #f5e5e5;
+  border-radius: 2%;
+  padding: 15px;
+  margin: 20px;
+}
+
+.img_especial{
+  width:290px;
+  height: 320px;
+  float: left;
+  padding-right: 20px;
+}
+
+.img_especial_2{
+  width:250px;
+  height: 300px;
+  float: right;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.img_especial_4{
+  width:90px;
+  height: 60px;
+  float: left;
+  padding-right: 20px;
+  margin-top: 5px;
+}
+
+.img_especial_5{
+  width: 400px;
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
